@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lexend+Giga:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Giga:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+
+.container{
+    width:100%;
+    height:100vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.header{
+    height: 11%;
+    display:flex;
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom:5px solid white;
+}
+.navbar{
+    text-align: center ;
+    flex:1;
+    left:31em;
+    position: relative;
+    margin-right: 10em;
+}
+
+.navbar a{
+    padding:10px;
+    text-decoration: none;
+    color:white;
+    margin-left: 60px;
+    font-size: 20px;
+    position: relative;
+    width: max-content;
+    font-family: 'Poppins';
+}
+.navbar a::before{
+    transition: 100ms;
+    content: '';
+    background:white;
+    width:100%;
+    height: 4px;
+    position: absolute;
+    bottom: 0;
+    border-radius:4px;
+}
+.navbar a:hover::before{
+    width:0;
+}
+h2{
+    color:white;
+    font-family: 'Exo 2';
+    font-weight:400;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 2em;
+    text-shadow: 5px 5px 60px  white;
+}
+h1{
+    text-align: center;
+    color:white;
+    font-size: 80px;
+    font-family: 'Exo 2';
+    margin-top: 100px;
+    text-shadow: 1px 1px 50px white;
+}
+img{
+    width: 30em;
+    height:30em;
+    box-shadow: 1px 1px 50px rgb(114, 114, 114);
+    margin:3em
+}
+.nr1 img{
+    float:left
+}
+.nr3 img{
+    width:45em;
+    height:30em;
+    float: left;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: transform 600ms;
+    box-shadow: 1px 1px 50px rgb(255, 255, 255);
+    transition-duration:1s;
+}
+.nr1 ul{
+    color:white;
+    font-family: 'lato';
+    font-weight: 300;
+    font-size: 25px;
+    margin-top:7em;
+    margin-left:24em;
+    margin-bottom:10em
+}
+.nr2 ul{
+    color:white;
+    font-family: 'lato';
+    font-weight: 300;
+    font-size: 25px;
+    margin-top:6em;
+    margin-left: 2em;
+    margin-bottom:10em
+}
+.nr3 ul{
+    color:white;
+    font-family: 'lato';
+    font-weight: 300;
+    font-size: 25px;
+    margin-top:5em;
+    margin-left:34em;
+    margin-bottom:10em
+}
+.nr4 ul{
+    color:white;
+    font-family: 'lato';
+    font-weight: 300;
+    font-size: 25px;
+    margin-top:5em;
+    margin-left: 2em;
+    margin-bottom:10em
+}
+.nr1{
+    margin-top:10em;
+}
+hr{
+    height:0.5px;
+    width:100%;
+    position: relative;
+    border-radius:5px;
+    background-color:rgb(255, 255, 255);
+}
+.nr2 img, .nr4 img{
+    float:right;
+}
+img{
+    margin-top:5em;
+    border-radius:50px;
+}
+.semn
+{
+ position:fixed;
+ bottom:27px;
+ right:-80px;
+ opacity:0.5;
+ z-index:99;
+ color:white;
+ font-size: 15px;
+}
+
+.semn img{
+    background-color:white;
+    position: relative;
+    border-radius: 10px;
+    width: 24px;
+    height:24px;
+    top:50px;
+    left:-45px
+}

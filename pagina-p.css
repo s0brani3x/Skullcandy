@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lexend+Giga:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+
+.container{
+    width:100%;
+    height:100vh;
+    background-image: url('./sc2_blackest_black.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.header{
+    height: 11%;
+    display:flex;
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom:5px solid white;
+}
+.content{
+    text-align: center;
+    margin-top:12%;
+
+}
+.content h1{
+    font-size:120px;
+    color:white;
+    position: relative;
+    left:3.4em;
+    display:inline;
+    text-shadow: 5px 5px 60px white;
+    top:90px;
+    font-family: 'Exo 2';
+}
+.content h4{
+    color:white;
+    position: relative;
+    font-family: 'Exo 2';
+    font-weight:lighter;
+    left:20em;
+    top:0.5em;
+    line-height: 23px;
+    font-style: italic;
+    top:90px;
+    font-size: 20px;
+}
+.logo{
+    width:75px;
+    cursor:pointer;
+    position:absolute;
+    left:113rem;
+    top:10px;
+    height: 95px;
+}
+.navbar{
+    text-align: center ;
+    flex:1;
+    left:31em;
+    position: relative;
+    margin-right: 10em;
+}
+
+.navbar a{
+    padding:10px;
+    text-decoration: none;
+    color:white;
+    margin-left: 60px;
+    font-size: 20px;
+    position: relative;
+    width: max-content;
+    font-family: 'Poppins';
+}
+.navbar a::before{
+    transition: 100ms;
+    content: '';
+    background:white;
+    width:100%;
+    height: 4px;
+    position: absolute;
+    bottom: 0;
+    border-radius:4px;
+}
+.navbar a:hover::before{
+    width:0;
+}
+.semn
+{
+ position:fixed;
+ bottom:27px;
+ right:10px;
+ opacity:0.5;
+ z-index:99;
+ color:white;
+ font-size: 15px;
+}
+
+.semn img{
+    background-color:white;
+    position: relative;
+    top:5px;
+    border-radius: 10px;
+}
